@@ -14,6 +14,7 @@
     padding: 0;
 }
 
+
 body{
     box-sizing: border-box;
     background-color: var(--cor-primaria);
@@ -116,5 +117,31 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 }
+.foto2{
+    display: none;
+}
 
+@media (max-width: 1060px){
+    .apresentacao{
+        display: flex;
+        background-image: none;
+        justify-content: center;
+        padding: 0%;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    .apresentacao__conteudo{
+        gap: 30px;
+        width: 70%;
+    }
+    .cabecalho{
+        margin-bottom: 20px;
 
+    }
+    .foto2{
+        display: block;
+        border-radius: 20px;
+
+    }
+}
