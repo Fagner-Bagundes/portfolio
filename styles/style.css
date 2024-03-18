@@ -152,10 +152,14 @@ body{
 
     }
     .apresentacao__links{
+        font-size: 1em;
+        gap: 5px;
+    }
+    .apresentacao__links__subtitulo{
         font-size: 1.3em;
     }
     .apresentacao__links__navegacao{
         width: 90%;
-        padding: 30px 0px ;
+        padding: 20px 0px ;
     }
 }
